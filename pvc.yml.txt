@@ -1,0 +1,9 @@
+apiVersion:v1
+kind:PersistentVolumeClaim
+metadata:
+ name: devpvc
+spec:
+ accessModes:
+  -ReadWriteOnce
+ resources:
+  storage: 10Gi
